@@ -1,11 +1,15 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SevenZip2010", "SevenZip2010.csproj", "{4960DD14-3431-47EC-B9D9-9D2730A98DC3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SevenZipTest2010", "..\SevenZipTest\SevenZipTest2010.csproj", "{B87AD11B-B701-496B-B48E-D1D963F2A336}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SevenZipTestWPF", "..\SevenZipTestWPF\SevenZipTestWPF.csproj", "{B6581047-3FBE-45E4-B4F8-F517FA3A6B6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZipExe", "..\ZipExe\ZipExe.csproj", "{8D4C9297-5E56-45DA-8148-EE60312DE943}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -49,6 +53,16 @@ Global
 		{B6581047-3FBE-45E4-B4F8-F517FA3A6B6C}.Release|Mixed Platforms.Build.0 = Release|x86
 		{B6581047-3FBE-45E4-B4F8-F517FA3A6B6C}.Release|x86.ActiveCfg = Release|x86
 		{B6581047-3FBE-45E4-B4F8-F517FA3A6B6C}.Release|x86.Build.0 = Release|x86
+		{8D4C9297-5E56-45DA-8148-EE60312DE943}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D4C9297-5E56-45DA-8148-EE60312DE943}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D4C9297-5E56-45DA-8148-EE60312DE943}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{8D4C9297-5E56-45DA-8148-EE60312DE943}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{8D4C9297-5E56-45DA-8148-EE60312DE943}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{8D4C9297-5E56-45DA-8148-EE60312DE943}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D4C9297-5E56-45DA-8148-EE60312DE943}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D4C9297-5E56-45DA-8148-EE60312DE943}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{8D4C9297-5E56-45DA-8148-EE60312DE943}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{8D4C9297-5E56-45DA-8148-EE60312DE943}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

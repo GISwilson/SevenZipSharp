@@ -51,17 +51,17 @@ namespace SevenZipTest
             #endregion
 
             #region Extraction test - ExtractFiles
-            /*using (var tmp = new SevenZipExtractor(@"d:\Temp\7z465_extra.7z"))
+            using (var tmp = new SevenZipExtractor(@"D:\send\3a9a87fe-1960-42d0-ba72-5637dcaef4a7.7z"))
             {
                 for (int i = 0; i < tmp.ArchiveFileData.Count; i++)
                 {
-                    tmp.ExtractFiles(@"d:\Temp\Result\", tmp.ArchiveFileData[i].Index);
+                    tmp.ExtractFiles(@"D:\send\", tmp.ArchiveFileData[i].Index);
                 }
-                // To extract more than 1 file at a time or when you definitely know which files to extract,
-                // use something like
+                 //To extract more than 1 file at a time or when you definitely know which files to extract,
+                 //use something like
                 //tmp.ExtractFiles(@"d:\Temp\Result", 1, 3, 5);
             }
-            //*/
+            
             #endregion
 
             #region Extraction test - multivolumes
